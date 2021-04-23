@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Baskervville&family=Montserrat:wght@300;400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgba(102, 101, 101, 0.06);
+    opacity: 80%;
+    width: 100vw;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-list{
+display: flex;
+list-style: none;  
+ font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.7rem;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+margin: 15px 0px 10px 0px;
+}
+
+.menu-list li{
+    margin: 0 12px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list a:hover{
+    color:gray;
+}
+
+.footer-content p{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+margin: 0px 0px 10px 0px;
+}
+
+.socials img{
+    height: 30px;
+    width: 30px;
+}
+
+.socials li{
+   list-style: none;
+   margin: 0 20px;
+   padding: 0;
+}
+
+.socials{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: center;
+    margin-top: 20em;
+    height: 50vh;
+}
+
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.01em solid;
+    font-size: 20px;
+    background-color: inherit;
+    text-decoration:l;
+}
+
+button{
+    background-color: transparent;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'barlow',sans-serif;
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    padding: 5px 150px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+}

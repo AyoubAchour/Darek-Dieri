@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Baskervville&family=Montserrat:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+   font-family: 'barlow', sans-serif;
+}
+
+.main-header{
+    clear: both;
+    overflow: hidden;
+}
+
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.right-side{
+    background-color: rgba(215, 198, 198, 0.35);
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 100vh;
+    left: 50%;
+}
+
+.left-side{
+    background-color: rgba(58, 58, 58, 0.16);
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 100vh;
+    right: 50%;
+}
+
+.landing-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-area{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    position: relative;
+    margin: 0 50px;
+    display: flex;
+    float: left;
+    align-items: center;
+    height: 11em;
+    width: 11em;
+    left: 15rem;
+    top: 3rem;
+    z-index: 2;
+}
+
+.menu-area{
+    float: right;
+    display: flex;
+    position: relative;
+    align-items: center;
+    list-style: none;
+    margin: 50px;
+    right: 12rem;
+    top: 3rem;
+    z-index: 2;
+}
+
+.menu-area li{
+    display: inline-block;
+    margin: 8px 5px;
+}
+
+.menu-area li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+    font-weight: bolder;
+}
+
+.menu-area button{
+    margin: 2.5rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    text-align: center;
+    font-family: 'barlow',sans-serif;
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+}
+.menu-area button:hover{
+    background-color: #fff5f5e3;
+}
+
+.landing-page-text{
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 39%;
+    z-index: 2;
+}
+
+.landing-page-text h2{
+    font-size: 8rem; 
+    position: relative;
+    font-family: 'baskerville', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.3em;
+    left: -10%;
+}
+
+.landing-page-text h3{
+    font-size: 8rem; 
+    position: relative;
+    font-family: 'baskerville', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03em;
+    left: -14%;
+}
+
+.landing-page-text p{
+    color: white;
+    margin: 50px 0px 50px 0px;
+    position: relative;
+    font-weight: 400;
+    font-size: 50px;
+    left: -10%;
+}
+
+.landing-page-text button{
+    margin: 0px 10px 0px 5px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    text-align: center;
+    font-family: 'barlow',sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.14em;
+    padding: 10px 40px 10px 40px;
+    font-weight: 600;
+    left: -10.5%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn{
+    color: white;
+}
+
+.landing-page-text button:hover{
+    background-color: #fff5f5e3;
+}
+
+
+
